@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.btn-light{
+    border: none !important;
+}
+
 a.a{
     color: #000000;
     text-decoration: none;
@@ -17,7 +21,22 @@ header{
     padding: 15px;
 }
 
-header > span {
+header img#logo_header{
+    display: inline-block;
+    width: 70px;
+}
+
+header span#logo_nome{
+    display: inline-block;
+    font-size: 1.3em;
+    transform: translate(-10px, 3px);
+}
+
+header span#div1{
+    width: 20%;
+}
+
+header span#div2 {
     padding: 10px;
     width: 40%;
 }
@@ -26,7 +45,7 @@ header > span > span{
     margin-left: 5px;
 }
 
-header > span a:nth-child(1){
+header > span#div2 a:nth-child(1){
     display: inline-block;
     width: 30%;
     padding: 5px;
@@ -40,7 +59,7 @@ header > span a:nth-child(2){
     width: 30%;
     padding: 5px;
     border-radius: 3px;
-    border: 2px solid #8ff663;
+    border: 2px solid #8ff663 !important;
     /* background-color: #8ff663; */
     color: #8ff663;
 }
